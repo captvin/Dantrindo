@@ -1,112 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
-
-* {
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
-.boot_menu {
-    padding: 18px 50px;
-    background-color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    z-index: 1;
-}
-
-.navbar-logo {
-    display: flex;
-    align-items: center;
-    width: 70px;
-    height: 70px;
-
-}
-
-.navbar-logo-text {
-    margin-left: 20px;
     font-family: roboto;
 }
 
-.navbar-logo-text h1 {
-    color: black;
+.navbar-brand{
+    display: flex;
+    align-items: center;
+}
+
+.brand-text{
+    margin-left: 20px;
+
+}
+.brand-text h1{
+    
     font-weight: 700;
     font-size: 34.5px;
 }
 
-.navbar-logo-text p {
+.brand-text p {
     margin-top: -10px;
     font-size: 15px;
 }
 
-.navbar-link-parent {
-    display: flex;
-    width: 100%;
-    list-style: none;
-}
-
-.navbar-item {
+.nav-item{
+    font-size: 17pt;
+    font-weight: 400;
     margin-right: 10px;
     padding-right: 10px;
     padding-left: 10px;
-    color: black;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 17pt;
+
 }
 
-.navbar-item:hover {
-    text-decoration: underline;
+.hamburger{
+    color: #00a13a;
 }
 
-.item-rounded {
-    border-radius: 20px;
-    background-color: green;
-    padding: 5px 18px;
-    color: white;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 17pt;
+.upperline{
+    background-color:#00a13a;
+    height: 12px;
 }
-
-.hamburger {
-    color: green;
-}
-
-/* main css */
 
 .box_slider{
     background-image: url(../Image/Layer_1png.png);
-    height: 863px;
-    background-size: 120%;
-    background-position: center;
-    background-color: black;
-    background-repeat: no-repeat;
     
-
+    height: 867px;
+    background-color: black;
 }
 
-.slider_text{
-    font-family: roboto;
+.slider-text{
     text-align: center;
-    padding-top:600px; 
+    padding-top: 600px;
+}
+
+.slider-text h1{
+    font-size: 55px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.slider-text h2{
+    font-size: 35px;
+    color: #dcb861;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.slider-text p{
+    font-size: 15px;
+    color: white;
+
 }
 
 .section1_home{
     height: 1093px;
     background-color: #fff;
-    
-
 }
 
 .prelatife-container{
-    font-family: roboto;
     text-align: center;
-    
-    
-    
 }
 
 .superior{
@@ -122,6 +96,7 @@
     
     font-size: 0;
 }
+
 .text-gbr{
     font-family: roboto;
     color: black;
@@ -142,6 +117,14 @@
     text-align: left;
     font-size:16px;
     width: 230px;
+}
+
+.bold-title{
+    font-size: 50px;
+}
+
+.bold-subtitle{
+    font-size:17px;
 }
 
 .section2_home{
@@ -179,8 +162,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
-
 }
 
 .bold-title{
@@ -216,13 +197,6 @@
     font-weight: lighter;
 }
 
-/* .sec3-button{
-    text-align: center;
-    font-weight: bold;
-    justify-content: bottom;
-    align-items: bottom;
-} */
-
 .top_footer{
     height: 204px;
     background-color:#00a13a ;
@@ -240,40 +214,6 @@
     padding: 18px 50px;
     padding-left: 500px;
     display: flex;
-}
-.mid-footer-logo{
-    display: flex;
-    align-items: center;
-    width: 70px;
-    height: 70px;
-    
-}
-.footer-logo-text{
-    margin-left: 20px;
-    font-family: roboto;
-}
-
-.footer-logo-text h1{
-    font-weight: 700;
-}
-
-.footer-logo-text p{
-    margin-top: -10px;
-    font-size: 11px;
-}
-.footer-link-parent{
-    display: flex;
-    width: 100%;
-    list-style: none;
-}
-.footer-item{
-    margin-right: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
-    text-decoration: none;
-    color: white;
-    font-weight: 400;
-    font-size: 17px;
 }
 
 .btm_footer{
@@ -295,13 +235,6 @@
     font-weight: lighter;
 }
 
-
-
-@media only screen and (min-width: 600px){
-    .slider_text{
-        font-size: 4px;
-    }
-}
 
 
 
