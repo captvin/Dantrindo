@@ -93,6 +93,7 @@
 
 .gbr{
     height: 248px;
+    display: flex;
     
     font-size: 0;
 }
@@ -233,6 +234,10 @@
     font-family: roboto;
     font-size: 16px;
     font-weight: lighter;
+}
+
+.top_footer{
+    padding-left: 450px;
 }
 
 
